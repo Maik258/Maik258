@@ -1,7 +1,7 @@
 <?php
 class Conectar{
     public static function conexion(){
-        $conexion=new mysqli("remotemysql.com", "7tK58L6A24", "4iULrSz7Xe", "7tK58L6A24");
+        $conexion=new mysqli("remotemysql.com", "5fS1UQixcu", "5fS1UQixcu", "wB20kREFJA");
         $conexion->query("SET NAMES 'utf8'");
         return $conexion;
     }
